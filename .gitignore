@@ -1,0 +1,22 @@
+# MediaPipe model (large binary, auto-downloaded on first run)
+hand_landmarker.task
+
+# Demo generation script (one-time use)
+generate_demo.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
