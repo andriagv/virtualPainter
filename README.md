@@ -1,4 +1,4 @@
-# 🎨 Virtual Painter
+# Virtual Painter
 
 Real-time virtual drawing app powered by **hand gestures** and **computer vision** — no mouse, no touch, just your hand in front of a webcam.
 
@@ -62,19 +62,6 @@ On first launch, the app automatically downloads the MediaPipe hand landmark mod
 
 ---
 
-## Project Structure
-
-```
-virtualPainter/
-├── main.py             # Main app loop, UI, gesture logic
-├── hand_tracker.py     # MediaPipe hand detection & landmark parsing
-├── drawing_canvas.py   # Canvas management (draw, erase, overlay)
-├── requirements.txt    # Dependencies
-└── demo.gif            # Demo preview
-```
-
----
-
 ## How It Works
 
 1. **Webcam captures** live video frames
@@ -91,8 +78,6 @@ virtualPainter/
 - Webcam
 - macOS / Linux / Windows
 
----
 
-## License
 
-MIT
+
