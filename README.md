@@ -31,18 +31,18 @@ Real-time virtual drawing app powered by **hand gestures** and **computer vision
 
 ```bash
 git clone https://github.com/andriagv/virtualPainter.git
-cd virtualPainter/Desktop/py
+cd virtualPainter
+python3 -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
-> **Note:** On macOS, use `pip3` or `pip3.14` depending on your Python version.
 
 ---
 
 ## Run
 
 ```bash
-python3.14 main.py
+python main.py
 ```
 
 On first launch, the app automatically downloads the MediaPipe hand landmark model (~8MB).
